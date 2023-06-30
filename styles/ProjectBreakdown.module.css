@@ -1,0 +1,56 @@
+.projectBreakdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+}
+
+.projectBreakdown h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.projectBreakdown ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projectBreakdown li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.projectBreakdown .tools,
+.projectBreakdown .supplyList,
+.projectBreakdown .cutList,
+.projectBreakdown .instructions {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projectBreakdown .tools h3,
+.projectBreakdown .supplyList h3,
+.projectBreakdown .cutList h3,
+.projectBreakdown .instructions h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.projectBreakdown .tools p,
+.projectBreakdown .supplyList p,
+.projectBreakdown .cutList p,
+.projectBreakdown .instructions p {
+  font-size: 1.2rem;
+  color: #666;
+}
